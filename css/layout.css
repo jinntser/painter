@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+html, body{
+	margin:0;
+	padding:0;
+	border:none;
+	height:100%;
+	width:100%;
+	overflow:hidden;
+}
+div{
+	margin:0;
+	padding:0;
+	border:none;
+}
+#draw{
+	position:relative;
+	margin:0;
+	padding:0;
+	border:none;
+}
+#sheet{
+	position:relative;
+	margin:0;
+	padding:0;
+	border:none;
+	display:none;
+}
+#menu_wrap{
+	height:60px;
+	background:#CCC;
+	overflow:auto;
+}
+.menu_btn, .menu_btn2{
+	margin:0;
+	float:left;
+	width:60px;
+	height:60px;
+	background-color:transparent;
+	cursor:pointer;
+	line-height:60px;
+	text-align:center;
+}
+.menu_active{
+	background-color:#CFF;
+}
+.menu_btn_in{
+	margin:10px;
+	width:40px;
+	height:40px;
+	line-height:40px;
+	font-size:18px;
+	text-align:center;
+}
+.colorpicked{
+	background:#000;
+}
+#pickcolor{
+	border-radius:20px;
+}
+#bgcolor{
+	background-color:#fff;
+}
+#stroke_size_img{
+	border-radius:10px;
+}
+.menuimg{
+	width:20px;
+	height:20px;
+	margin:0 auto;
+}
+.menutext{
+	width:auto;
+	height:20px;
+	margin:0 auto;
+	line-height:20px;
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
+}
+.sub_menu{
+	position:absolute;
+	top:60px;
+	width:calc(100% - 2px);
+	max-width:500px;
+	height:auto;
+	border:solid #666 1px;
+	display:none;
+	background:#eee;
+	z-index:9999;
+}
+.sub_menu div{
+	cursor:pointer;
+}
+.colortable{
+	margin:10px;
+	width:50px;
+	height:50px;
+	border-radius:25px;
+	float:left;
+}
+.bgcolortable{
+	margin:10px;
+	width:50px;
+	height:50px;
+	border-radius:25px;
+	float:left;
+}
+
+.menu_right{
+	margin:10px;
+	float:right;
+	width:50px;
+	height:40px;
+	cursor:pointer;
+	line-height:40px;
+}
+#clearcanvas{
+}
+#savefile{
+}
+#checklist span{
+	color:#F00;
+}
